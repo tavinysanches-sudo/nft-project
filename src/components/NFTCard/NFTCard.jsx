@@ -6,9 +6,13 @@ function NFTCard() {
       <div className="nft-image-container">
         <img
           src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d"
-          alt="NFT artwork"
+          alt="Abstract digital artwork"
           className="nft-image"
         />
+
+        <div className="image-overlay">
+          <span>◉</span>
+        </div>
       </div>
 
       <h2>Equilibrium #3429</h2>
@@ -18,13 +22,16 @@ function NFTCard() {
       </p>
 
       <div className="nft-info">
-        <span>♦️ 0.041 ETH</span>
-        <span>◷ 3 days left</span>
+        <span className="price">♦️ 0.041 ETH</span>
+        <span className="time">◷ 3 days left</span>
       </div>
 
       <div className="creator">
-        <span>Creation of</span>
-        <strong> Jules Wyvern</strong>
+        <div className="avatar"></div>
+
+        <p>
+          Creation of <strong>Jules Wyvern</strong>
+        </p>
       </div>
     </article>
   )
