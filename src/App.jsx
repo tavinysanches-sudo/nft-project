@@ -1,10 +1,10 @@
 import './App.css'
-import NFTCard from './components/NFTCard/NFTCard'
+import CardList from './components/CardList/CardList'
 
 function App() {
   return (
     <main className="app">
-      <NFTCard />
+      <CardList />
     </main>
   )
 }
