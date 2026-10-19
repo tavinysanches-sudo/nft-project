@@ -12,18 +12,9 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.logo span {
-  color: #00fff7;
-  font-size: 28px;
+  width: 150px;
+  height: auto;
+  display: block;
 }
 
 nav {

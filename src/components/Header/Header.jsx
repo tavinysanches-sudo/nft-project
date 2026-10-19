@@ -1,12 +1,10 @@
 import './Header.css'
+import logo from '../../assets/logo.png'
 
 function Header() {
   return (
     <header className="header">
-      <div className="logo">
-        <span>◈</span>
-        NFTERRA
-      </div>
+      <img src={logo} alt="NFTERRA" className="logo" />
 
       <nav>
         <a href="#collection">Collection</a>
